@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IVEP — Carteira</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="topo">
+    <h1>IVEP</h1>
+    <nav>
+      <a href="index.html" class="active">Carteira</a>
+      <a href="relatorios.html">Relatórios</a>
+      <a href="sobre.html">Sobre</a>
+      <a href="metodologia.html">Metodologia</a>
+    </nav>
+  </div>
+  <p>ㅤㅤㅤㅤㅤㅤㅤInvestindo Visando Estratégia de Princípios</p>
+</header>
+
+<main class="container">
+  <section class="card">
+    <h2>Carteira Atual</h2>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Ativo</th>
+          <th>Setor</th>
+          <th>% da Carteira</th>
+          <th>Resultado</th>
+        </tr>
+      </thead>
+      <tbody id="tabela-carteira"></tbody>
+    </table>
+  </section>
+</main>
+<main class="container">
+  <section class="card">
+  <h2>Desempenho</h2>
+  <div class="benchmark">
+    <div>
+      <span>Rentabilidade IVEP</span>
+      <strong id="ret-carteira">--</strong>
+    </div>
+    <div>
+      <span>Benchmark (IBOV)</span>
+      <strong id="ret-benchmark">--</strong>
+    </div>
+    <div>
+      <span>Excesso de retorno</span>
+      <strong id="ret-excesso">--</strong>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <p>Carteira fictícia para fins educacionais.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
